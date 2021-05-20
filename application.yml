@@ -21,3 +21,13 @@ management:
       exposure:
         include:
         - "*"
+spring:
+  data:
+    mongodb:
+      host: localhost
+      database: test
+      port: 27017
+      
+logging:
+  level:
+   '[org.springframework.data.mongodb]':  debug        
