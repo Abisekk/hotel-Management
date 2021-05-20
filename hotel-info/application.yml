@@ -1,1 +1,11 @@
-# config properties of hotel info services
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:9999/eureka
+      
+  instance:
+    hostname: localhost
+    prefer-ip-address: true
+ 
