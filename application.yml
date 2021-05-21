@@ -26,7 +26,7 @@ spring:
     mongodb:
       host: localhost
       database: test
-      port: 2772
+      port: 27017
       
 logging:
   level:
